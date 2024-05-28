@@ -1,0 +1,98 @@
+.inner-restro-base {
+    max-width: 600px;
+    margin: 100px 300px;
+    padding: 20px 38px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 60%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.inner-restro-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.inner-restro-map {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+
+}
+
+.inner-restro-map img {
+    width: 30%;
+    height: 280px;
+    border: 2px solid blue;
+    border-radius: 10px;
+
+}
+
+.inner-restro-map img:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.inner-restro-map iframe {
+    width: 50%;
+    height: 280px;
+    border: 2px solid rgba(255, 255, 255, 0.518);
+    border-radius: 10px;
+}
+
+.inner-restro-ratings {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ratings-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.star-rating {
+    display: flex;
+    gap: 5px;
+}
+
+.star-rating i {
+    font-size: 20px;
+    color: #87815f;
+    /* Gold color for stars */
+    cursor: pointer;
+}
+
+.star-rating i.active {
+    color: #ffab00;
+    /* Darker gold color for active (selected) stars */
+}
+
+.review-restro textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.review-restro button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.review-restro button:hover {
+    background-color: #45a049;
+}
